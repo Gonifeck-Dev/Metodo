@@ -39,7 +39,7 @@ const personas = [
     { nombre: "Dani", edad: 28 }
 ];
 console.log("Ejercicio 6:");
-personas.forEach(persona => console.log("Su nombre es " + persona.nombre + " y tiene " + persona.edad + " años"));
+personas.forEach(persona => console.log("Su nombre es " + persona.nombre));
 
 // Ejercicio 7
 const numerosFilter = [2, 7, 4, 9, 1, 3, 5, 8, 6, 11, 0];
@@ -55,8 +55,8 @@ console.log("Ejercicio 8:", sumaTotal);
 function esperar() {
     return new Promise(resolve => {
         setTimeout(() => {
-            resolve("Mensaje después de 5 segundos");
-        }, 5000);
+            resolve("Mensaje después de 2 segundos");
+        }, 2000);
     });
 }
 
